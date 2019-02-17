@@ -1,6 +1,6 @@
 package com.chris.projects.FXTradingPlatform.fix;
 
-import quickfix.fix44.Message;
+import quickfix.Message;
 
 public interface FixSender {
 

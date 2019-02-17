@@ -3,6 +3,12 @@ package com.chris.projects.FXTradingPlatform.fix;
 import quickfix.*;
 
 public class FixApplication implements Application {
+
+    private FixSender fixSender;
+
+    public FixApplication(FixSender fixSender) {
+        this.fixSender = fixSender;
+    }
     @Override
     public void onCreate(SessionID sessionID) {
 
@@ -30,7 +36,7 @@ public class FixApplication implements Application {
 
     @Override
     public void toApp(Message message, SessionID sessionID) throws DoNotSend {
-
+        fixSender.send(message);
     }
 
     @Override
