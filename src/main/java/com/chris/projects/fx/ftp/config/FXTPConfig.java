@@ -1,4 +1,4 @@
-package com.chris.projects.FXTradingPlatform.config;
+package com.chris.projects.fx.ftp.config;
 
 import org.springframework.context.annotation.Configuration;
 

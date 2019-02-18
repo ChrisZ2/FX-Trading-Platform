@@ -1,8 +1,6 @@
-package com.chris.projects.FXTradingPlatform.fix;
+package com.chris.projects.fx.ftp.fix;
 
 import org.junit.Before;
-
-import static org.junit.Assert.*;
 
 public class FTPFixMessageAcceptorTest {
     @Before
