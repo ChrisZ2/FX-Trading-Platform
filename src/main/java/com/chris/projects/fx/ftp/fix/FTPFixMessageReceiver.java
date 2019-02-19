@@ -6,11 +6,11 @@ import quickfix.SessionID;
 import quickfix.fix44.NewOrderSingle;
 
 
-public class FTPFixMessageAcceptor extends MessageCracker {
+public class FTPFixMessageReceiver extends MessageCracker {
 
     private OrderBookService orderBookService;
 
-    public FTPFixMessageAcceptor(OrderBookService orderBookService) {
+    public FTPFixMessageReceiver(OrderBookService orderBookService) {
         this.orderBookService = orderBookService;
     }
 

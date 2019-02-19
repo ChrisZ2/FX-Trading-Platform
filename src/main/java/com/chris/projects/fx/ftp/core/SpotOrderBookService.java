@@ -18,4 +18,9 @@ public class SpotOrderBookService implements OrderBookService {
 
     }
 
+    @Override
+    public void onOrderAmend() {
+
+    }
+
 }
