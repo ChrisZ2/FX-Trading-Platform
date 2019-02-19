@@ -2,14 +2,14 @@ package com.chris.projects.fx.ftp.core;
 
 public class SpotOrderBookService implements OrderBookService {
 
+    private OrderProcessor spotOrderProcessor;
 
-    @Override
-    public void onOrderReceived() {
-
+    public SpotOrderBookService(OrderProcessor spotOrderProcessor) {
+        this.spotOrderProcessor = spotOrderProcessor;
     }
 
     @Override
-    public void onOrderFillAccepted() {
+    public void onOrderReceived() {
 
     }
 

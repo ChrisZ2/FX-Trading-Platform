@@ -1,37 +1,38 @@
 package com.chris.projects.fx.ftp.core;
 
+import com.chris.projects.fx.ftp.entity.SpotOrder;
 import com.chris.projects.fx.ftp.fix.FixSender;
 
-public class SpotOrderController implements OrderController {
+public class SpotOrderController implements OrderController<SpotOrder> {
 
     private FixSender ftpFixMessageSender;
 
     public SpotOrderController(FixSender ftpFixMessageSender) {
         this.ftpFixMessageSender = ftpFixMessageSender;
     }
-
+    
     @Override
-    public void onOrderAccepted() {
+    public void onOrderAccepted(SpotOrder order) {
 
     }
 
     @Override
-    public void onOrderFilled() {
+    public void onOrderFilled(SpotOrder order) {
 
     }
 
     @Override
-    public void onOrderAmendAccepted() {
+    public void onOrderAmendAccepted(SpotOrder order) {
 
     }
 
     @Override
-    public void onOrderExpired() {
+    public void onOrderExpired(SpotOrder order) {
 
     }
 
     @Override
-    public void onOrderRejected() {
+    public void onOrderRejected(SpotOrder order) {
 
     }
 }
