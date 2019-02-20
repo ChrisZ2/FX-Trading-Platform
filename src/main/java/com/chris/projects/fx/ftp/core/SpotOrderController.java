@@ -10,7 +10,7 @@ public class SpotOrderController implements OrderController<SpotOrder> {
     public SpotOrderController(FixSender ftpFixMessageSender) {
         this.ftpFixMessageSender = ftpFixMessageSender;
     }
-    
+
     @Override
     public void onOrderAccepted(SpotOrder order) {
 
