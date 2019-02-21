@@ -20,4 +20,16 @@ public class FTPFixProperties {
         return TargetCompId;
     }
 
+    public void setAcceptor(boolean acceptor) {
+        isAcceptor = acceptor;
+    }
+
+    public void setSenderCompId(String senderCompId) {
+        SenderCompId = senderCompId;
+    }
+
+    public void setTargetCompId(String targetCompId) {
+        TargetCompId = targetCompId;
+    }
+
 }
