@@ -1,8 +1,15 @@
-package com.chris.projects.FXTradingPlatform.fix;
+package com.chris.projects.fx.ftp.fix;
 
 import quickfix.*;
 
 public class FixApplication implements Application {
+
+    private final MessageCracker ftpFixMessageCracker;
+
+    public FixApplication(MessageCracker ftpFixMessageCracker) {
+        this.ftpFixMessageCracker = ftpFixMessageCracker;
+    }
+    
     @Override
     public void onCreate(SessionID sessionID) {
 
@@ -30,7 +37,6 @@ public class FixApplication implements Application {
 
     @Override
     public void toApp(Message message, SessionID sessionID) throws DoNotSend {
-
     }
 
     @Override

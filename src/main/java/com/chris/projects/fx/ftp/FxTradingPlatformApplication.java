@@ -1,4 +1,4 @@
-package com.chris.projects.FXTradingPlatform;
+package com.chris.projects.fx.ftp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
