@@ -1,6 +1,6 @@
 package com.chris.projects.fx.ftp.core;
 
-import com.chris.projects.fx.ftp.entity.SpotOrder;
+import com.chris.projects.fx.ftp.entity.order.SpotOrder;
 import com.chris.projects.fx.ftp.fix.FixSender;
 
 public class SpotOrderController implements OrderController<SpotOrder> {

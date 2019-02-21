@@ -2,3 +2,7 @@ fix:
   isAcceptor: true
   SenderCompID: chris-FTP
   TargetCompID: chris-order-generator
+cutofftime:
+  minbefore: 10
+scheduler:
+  frequency: 10

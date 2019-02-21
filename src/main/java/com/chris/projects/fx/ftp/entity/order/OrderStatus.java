@@ -1,4 +1,4 @@
-package com.chris.projects.fx.ftp.entity;
+package com.chris.projects.fx.ftp.entity.order;
 
 public enum OrderStatus {
     PARTIALLY_FILLED,

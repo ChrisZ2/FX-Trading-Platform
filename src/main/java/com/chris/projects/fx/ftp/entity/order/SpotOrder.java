@@ -1,4 +1,4 @@
-package com.chris.projects.fx.ftp.entity;
+package com.chris.projects.fx.ftp.entity.order;
 
 public class SpotOrder extends Order{
     private double filledAmt;
