@@ -7,6 +7,7 @@ public class FTPFixProperties {
     private boolean isAcceptor;
     private String SenderCompId;
     private String TargetCompId;
+    private String configFile;
 
     public boolean isAcceptor() {
         return isAcceptor;
@@ -30,6 +31,14 @@ public class FTPFixProperties {
 
     public void setTargetCompId(String targetCompId) {
         TargetCompId = targetCompId;
+    }
+
+    public String getConfigFile() {
+        return configFile;
+    }
+
+    public void setConfigFile(String configFile) {
+        this.configFile = configFile;
     }
 
 }

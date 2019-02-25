@@ -1,4 +1,5 @@
 fix:
+  configFile: fix-config.cfg
   isAcceptor: true
   SenderCompID: chris-FTP
   TargetCompID: chris-order-generator
