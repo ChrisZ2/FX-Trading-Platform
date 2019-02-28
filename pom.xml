@@ -6,7 +6,7 @@
     <artifactId>FX-Trading-Platform</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>FX-Trading-Platform</name>
-    <description>FX trading platform</description>
+    <description>FX Trading Platform</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
