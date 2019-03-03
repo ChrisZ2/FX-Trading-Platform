@@ -1,5 +1,6 @@
 fix:
-  isAcceptor: true
+  configFile: fix-config.cfg
+  acceptor: true
   SenderCompID: chris-FTP
   TargetCompID: chris-order-generator
 cutofftime:
