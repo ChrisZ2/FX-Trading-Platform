@@ -1,4 +1,4 @@
-package com.chris.projects.FXTradingPlatform;
+package com.chris.projects.fx.ftp;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
